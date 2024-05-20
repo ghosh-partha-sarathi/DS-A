@@ -1,4 +1,4 @@
-package com.dsa.programming.ds.linkedlist;
+package com.dsa.programming.datastructures.linkedlist;
 
 /**
  * Implement a method called reverse that reverses the order of the nodes in the linked list.*
