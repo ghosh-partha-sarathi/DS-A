@@ -1,0 +1,12 @@
+Binary Search Tree(BST)
+================================================
+1. Deleting a Node from a BST: Understand the strategies to remove a node while maintaining the BST properties.
+2. Converting a Sorted Array to a Balanced BST: Learn how to transform a sorted array into a balanced BST to ensure efficient operations.
+3. Inverting a BST: Explore the concept of flipping a BST to mirror its structure.
+4. Validating a BST: Discover how to check if a binary tree satisfies BST conditions, an essential problem-solving skill.
+
+HashMaps/HashTables
+=================================================
+1. Write a function itemInCommon(array1, array2) that takes two arrays as input and returns true if there is at least one common item between the two lists, false otherwise.
+    Use a HashMap to solve the problem that creates an O(n) time complexity.
+2.

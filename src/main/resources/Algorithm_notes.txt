@@ -1,0 +1,40 @@
+Trees: Trees are undirected graphs where any two vertices(nodes) are at max connected by exactly one path.
+Forests: Forests are disjoint union of Trees. It is an undirected graph all of whose connected components
+         are trees.
+Directed Acyclic Graph(DAG): It is a finite directed graph with no directed cycles.
+Complete Graph: It is a graph where every pair of vertices are connected by a path.
+There can be two types of edges in a graph-
+    - Forward Edge: A forward edge(u,v) points from vertex 'u' to one of it's descendants 'v'
+    - Backward Edge: A backward edge(u,v) points from vertex 'u' to one of it's ancestors 'v'
+Backward edges indicates existence of cycle in a graph.
+
+Cycle Detection:
+==========================
+- Uses DFS
+
+Dijkstra's Algorithm(Shortest Path Algorithm)
+===============================================
+- Dijkstra's algorithm can handle only positive edge weights.
+- It creates the shortest path tree to all vertices from the source.
+- It is the fastest algorithm to calculate shortest path in an arbitrary directed graph
+  with unbounded non-negative weights.
+- To implement Dijkstra's algorithm all edge weights must be greater than 0.
+
+Bellman-Ford Algorithm(Shortest Path Algorithm)
+===============================================
+- Bellman-Ford algorithm can handle both positive and negative edge weights.
+- It is slower than Dijkstra's algorithm however more robust.
+- Bellman-Ford algorithm makes V-1 iterations where V is the number of vertices, and one
+  more iteration to check for any negative cycles in the graph.
+- Yen optimization - The Bellman-Ford algorithm can be terminated if there is no change in
+                     distances between two consecutive iterations.
+
+* Finding the longest path in an arbitrary directed graph is a NP-Hard problem with no
+  known solution in polynomial running time algorithm, however if the graph is a
+  directed acyclic graph(DAG) then this problem can be solved in a linear running time.
+* Also, the longest path problem can be solved by negating the edge weights(multiplying weight
+  with -1) and then using Bellman-Ford algorithm.
+
+Josephus problem
+======================
+https://www.google.com/amp/s/www.geeksforgeeks.org/josephus-problem/amp

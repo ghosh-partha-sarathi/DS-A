@@ -1,0 +1,75 @@
+LinkedList:
+==================
+1. LinkedList are also type of binary tree.
+2. LinkedList is a tree which does not fork
+
+Stacks:
+==================
+1.
+
+Queues:
+==================
+1.
+
+Trees:
+==================
+1. Internal implementation of trees uses linkedlist with each node having two pointers.
+2. Types of trees-
+      * Binary Tree - Where each node can have maximum two child nodes.
+      * Full Tree - Every node either points to two nodes or zero nodes.
+      * Perfect Tree - In a perfect tree any level in the tree that has any nodes is completely
+                        full all across. A perfect tree is also full but the vice versa is not neccessary.
+      * Complete Tree - Where tree is filled from left to right with NO gaps.
+      * Leaf node - A node which does not have any child nodes.
+3. Binary Search Tree(BST) - In a binary search tree each parent node contains value greater than its leftchild
+                             value and less than its rightchild.
+4. We cannot insert dupliacte values into BST
+5. Delete node operation in a BST
+    -
+Q. How to calculate height of tree?
+
+Graphs:
+==================
+1. Internal implementation of graphs uses Map<String, ArrayList>.
+
+Heaps:
+==================
+1. Heaps are binary trees where each node is greater OR less than its descendants.
+2. A heap is always a complete tree.
+3. Heap can have duplicates.
+4. Two types of heap:
+    Max heap: Where each descendant is LESS than its parent node.
+    Min heap: Where each descendant is GREATER than its parent node.
+5. Internal implementation of heaps uses ArrayList.
+
+Priority Queue
+===================
+1. Internal implementation of priority queues uses heaps.
+
+Deletion logic in BST
+===================
+
+Breadth First Search(BFS)
+=============================
+-
+
+Depth First Search(DFS)
+=============================
+There are three different kinds of DFS algorithms-
+    1. Pre-Order
+        Node -> Left child -> Right child
+    2. Post-order
+        Left child -> Right child -> Node
+    3. In-Order
+        Left child -> Node -> Right child
+
+Fibbonacci Heap
+=============================
+
+
+add() vs offer() methods in queue.
+remove() vs poll() methods in queue.
+
+=============================
+DSA basics:
+https://capgemini.udemy.com/course/data-structures-and-algorithms-java/learn/lecture/29945004#overview
